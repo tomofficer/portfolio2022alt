@@ -24,8 +24,12 @@ class Portfolio extends Component {
                 alignItems: 'center',
               }}>
               {projects.title}
-              <FaLink />
-              <FaCode />
+              <a href={projects.url}>
+                <FaLink />
+              </a>
+              <a href={projects.github}>
+                <FaCode />
+              </a>
             </div>
           </div>
         </div>
