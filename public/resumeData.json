@@ -1,17 +1,17 @@
 {
   "main": {
     "name":" Tom Officer",
-    "description":"Full stack developer and one of the three Founding Software Engineers of LeadrPro. I specialize in building modern, scalable web applications using JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
+    "description":"I'm a Full stack developer and one of the three Founding Software Engineers of LeadrPro. I specialize in building modern, scalable web applications using JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
     "image":"profilepic.jpg",
-    "bio":"Frontend / Full Stack Developer with two years experience developing and deploying modern, highly scalable, production-level web applications. Prefers working remotely with a tight-knit team in a fast paced Agile SCRUM environment and holds frequent team communication in high regard. Stellar attention to detail with a diverse background in modern technologies ranging from web development to professional audio engineering. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
+    "bio":"Full Stack Developer with two years experience developing and deploying highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
     "contactmessage":"I'm always open to new opportunities and would love to hear from you. Let's connect!",
-    "email": "Thomasofficerjr@gmail.com",
+    "email": "tomofficerwebdev@gmail.com",
     "phone": "530-925-9482",
     "github":"https://github.com/tomofficer",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "linkedIn":"https://www.linkedin.com/in/tomofficer/",
     "address":{
-      "street":"",
-      "city":"Mount Shasta,",
+      "street":"Mt. Shasta",
+      "city":"",
       "state":"California",
       "zip": "USA"
     },

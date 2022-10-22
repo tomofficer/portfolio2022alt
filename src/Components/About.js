@@ -6,7 +6,8 @@ class About extends Component {
     if (!this.props.data) return null;
 
     const name = this.props.data.name;
-    const profilepic = 'images/' + this.props.data.image;
+    const profilepic =
+      'https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie1_g2mRpUuHe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662507998685';
     const bio = this.props.data.bio;
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
@@ -20,13 +21,6 @@ class About extends Component {
       <section id='about'>
         <Fade duration={1000}>
           <div className='row'>
-            <div className='three columns'>
-              <img
-                className='profile-pic'
-                src='https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie1_g2mRpUuHe.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662507998685'
-                alt='Tom Officer Avatar'
-              />
-            </div>
             <div className='nine columns main-col'>
               <h2>About Me</h2>
 
@@ -50,12 +44,19 @@ class About extends Component {
                 </div>
                 <div className='columns download'>
                   <p>
-                    <a href={resumeDownload} className='button' target='_blank'>
+                    <a
+                      href={resumeDownload}
+                      className='button'
+                      target='_blank'
+                      rel='noreferrer'>
                       <i className='fa fa-download'></i>Download Resume
                     </a>
                   </p>
                 </div>
               </div>
+            </div>
+            <div className='three columns'>
+              <img className='profile-pic' src={profilepic} />
             </div>
           </div>
         </Fade>
