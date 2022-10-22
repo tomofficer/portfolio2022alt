@@ -6,7 +6,7 @@
     "description2":"I specialize in building modern, scalable web applications using",
     "description3":"JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
     "image":"profilepic.jpg",
-    "bio":"Full Stack Developer with two years experience developing and deploying highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
+    "bio":"Full Stack Developer with two years experience developing and deploying modern, highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
     "contactmessage":"I'm always open to new opportunities and would love to hear from you. Let's connect!",
     "email": "tomofficerwebdev@gmail.com",
     "phone": "530-925-9482",
@@ -40,13 +40,13 @@
         "company":"LeadrPro",
         "role":"Full Stack Developer",
         "duration":"Nov 2021 - Present",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Developed a full stack web application to host video demos for Saas companies. Built a visually appealing front end by translating UI/UX wireframes into JSX code while fetching, manipulating and displaying data from a RESTful API. Helped develop functional databases and servers to support scalability on the back-end."
       },
       {
         "company":"White Dog Woodworking",
         "role":"Web Developer",
         "duration":"Aug 2022 - Present",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Spearheaded custom website from wirefram design to production-level deployment hosted on Vercel. Applied industry best practices to code out a modern, responsive front-end architecture using JavaScript, HTML and CSS."
       }
     ],
     "education":[
@@ -54,41 +54,53 @@
         "school":"Thinkful",
         "degree":"Software Engineering Certificate",
         "graduated":"May 2021 - Jan 2022",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Learned industry standards and best practices in both front and back end technology. Practiced modern Agile SCRUM development using JavaScript, React, Express and Node.js. Developed and deployed numerous production-level full stack web applications."
       },
       {
         "school":"Expression College For Digital Arts",
         "degree":"Bachelor Of Applied Science, Audio Engineering",
         "graduated":"Jan 2012 - Dec 2015",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Learned industry standards in professional studio recording, live sound and post-production. Perfected modern recording techniques, production skills, sound design, acoustics, midi systems, mixing, mastering and digital editing."
       }
     ],
     "experience":[
       {
-        "project":"Awesome Design Studio",
-        "role":"Senior UX God ",
-        "duration":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "project":"Affiliate Marketing Website",
+        "role":"YourNextToy.com",
+        "duration":"Oct 2022 - Present",
+        "description":"Developed a scalable affiliate marketing website for children's toys using React, Chakra UI, HTML and CSS. Tested, debugged and deployed 10,000+ lines of code and optimized for SEO and accessibility."
       },
       {
-        "project":"Awesome Design Studio",
-        "role":"Senior UX God ",
-        "duration":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "project":"JavaScript Coding Tips Blog",
+        "role":"JavaScriptCodingTips.com",
+        "duration":"Aug 2022 - Present",
+        "description":"Coded out a modern, responsive frontend for a programming blog using JavaScript, React, HTML and CSS. Wrote engaging content and implemented fetch calls to the Contentful API to retrieve, manipulate and display data from the backend."
       }
     ],
     "certificates":[
       {
-        "title":"Cert 1",
-        "school":"Senior UX God ",
-        "duration":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"Advanced JavaScript",
+        "school":"Udemy",
+        "duration":"Nov 2021",
+        "description":"Deep dive into JS fundamentals using asynchronous, Object Oriented Programming."
       },
       {
-        "title":"Cert 2",
-        "school":"Senior UX God ",
-        "duration":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"React Front To Back",
+        "school":"Udemy",
+        "duration":"Nov 2021",
+        "description":"Learned modern React 16.8+ including hooks, context API, full stack MERN and Redux."
+      },
+      {
+        "title":"React + Shopify (Headless CMS)",
+        "school":"Udemy",
+        "duration":"Sep 2021",
+        "description":"Built a headless Shopify storefront using the Shopify API, React hooks and context API."
+      },
+      {
+        "title":"Advanced Shopify Theme Development",
+        "school":"Udemy",
+        "duration":"Sep 2021",
+        "description":"Learned to build Shopify themes from scratch using Liquid, JavaScript and Vue.js."
       }
     ],
     "skills":[
