@@ -11,6 +11,7 @@ class Header extends Component {
     const name = this.props.data.nameHeader;
     const description = this.props.data.description;
     const description2 = this.props.data.description2;
+    const description3 = this.props.data.description3;
 
     return (
       <header id='home'>
@@ -75,7 +76,8 @@ class Header extends Component {
                   {' '}
                   LeadrPro
                 </a>
-                . {description2}.
+                <br /> {description2}
+                <br /> {description3}
               </h3>
             </Fade>
             <hr />

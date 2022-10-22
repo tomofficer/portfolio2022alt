@@ -1,9 +1,10 @@
 {
   "main": {
-    "nameHeader":"<Tom Officer/>",
+    "nameHeader":"Tom Officer",
     "name":" Tom Officer",
-    "description":"I'm a Full Stack Developer and one out of three Founding Software Engineers of ",
-    "description2":"I specialize in building modern, scalable web applications using JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
+    "description":"Full Stack Developer and Founding Software Engineer of ",
+    "description2":"I specialize in building modern, scalable web applications using",
+    "description3":"JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
     "image":"profilepic.jpg",
     "bio":"Full Stack Developer with two years experience developing and deploying highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
     "contactmessage":"I'm always open to new opportunities and would love to hear from you. Let's connect!",
@@ -34,63 +35,78 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+    "employment":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
+        "company":"LeadrPro",
+        "role":"Full Stack Developer",
+        "duration":"Nov 2021 - Present",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
+        "company":"White Dog Woodworking",
+        "role":"Web Developer",
+        "duration":"Aug 2022 - Present",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
-    "work":[
+    "education":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
+        "school":"Thinkful",
+        "degree":"Software Engineering Certificate",
+        "graduated":"May 2021 - Jan 2022",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Expression College For Digital Arts",
+        "degree":"Bachelor Of Applied Science, Audio Engineering",
+        "graduated":"Jan 2012 - Dec 2015",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "experience":[
+      {
+        "project":"Awesome Design Studio",
+        "role":"Senior UX God ",
+        "duration":"March 2018 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
+        "project":"Awesome Design Studio",
+        "role":"Senior UX God ",
+        "duration":"March 2018 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      }
+    ],
+    "certificates":[
+      {
+        "title":"Cert 1",
+        "school":"Senior UX God ",
+        "duration":"March 2018 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "title":"Cert 2",
+        "school":"Senior UX God ",
+        "duration":"March 2018 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "title":"Front End Skills",
+        "skills":"JavaScript | React | HTML | CSS | Chakra UI | AJAX | JSON | DOM Manipulation"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "title":"Back End Skills",
+        "skills":"Node.js | Express.js | Knex.js | PostgreSQL | Separation Of Concerns | RESTful APIs "
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "title":"Soft Skills",
+        "skills":"Critical Problem Solving | Self Management | Empathy | Communication | Self-awareness"
       },
       {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
-        "level":"50%"
-      },
-      {
-        "name":"JAVA",
-        "level":"80%"
+        "title":"Miscellaneous",
+        "skills":"Git | GitHub | BitBucket | Figma | Asana | D3.js | Adobe Photoshop | Postman | Jira"
       }
     ]
   },

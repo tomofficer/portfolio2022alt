@@ -305,6 +305,7 @@ ul#nav li.current a {
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
+  font-weight: 500;
 }
 #resume .info span {
   margin-right: 5px;
