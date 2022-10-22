@@ -23,7 +23,7 @@ class Footer extends Component {
               <ul className='social-links'>{networks}</ul>
 
               <ul className='copyright'>
-                <li>&copy; Copyright 2022 Tom Officer</li>
+                <li>&copy; Copyright 2022 Tom Officer Web Dev</li>
               </ul>
             </div>
           </Fade>
@@ -40,3 +40,22 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+/* extra network data 
+ {
+        "name":"facebook",
+        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+       {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+
+*/

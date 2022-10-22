@@ -1,7 +1,9 @@
 {
   "main": {
+    "nameHeader":"<Tom Officer/>",
     "name":" Tom Officer",
-    "description":"I'm a Full stack developer and one of the three Founding Software Engineers of LeadrPro. I specialize in building modern, scalable web applications using JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
+    "description":"I'm a Full Stack Developer and one out of three Founding Software Engineers of ",
+    "description2":"I specialize in building modern, scalable web applications using JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
     "image":"profilepic.jpg",
     "bio":"Full Stack Developer with two years experience developing and deploying highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
     "contactmessage":"I'm always open to new opportunities and would love to hear from you. Let's connect!",
@@ -18,25 +20,11 @@
     "website": "http://www.tomofficer.com",
     "resumedownload":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Tom_Officer_Resume_2022_UbRqw_kgu.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1663829604405",
     "social":[
-      {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
+     
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/tomofficer/",
         "className":"fa fa-linkedin"
-      },
-      {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
       },
       {
         "name":"github",
@@ -183,3 +171,4 @@
     ]
   }
 }
+

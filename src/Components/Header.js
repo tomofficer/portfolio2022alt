@@ -8,8 +8,9 @@ class Header extends Component {
 
     const linkedIn = this.props.data.linkedIn;
     const github = this.props.data.github;
-    const name = this.props.data.name;
+    const name = this.props.data.nameHeader;
     const description = this.props.data.description;
+    const description2 = this.props.data.description2;
 
     return (
       <header id='home'>
@@ -44,7 +45,7 @@ class Header extends Component {
 
             <li>
               <a className='smoothscroll' href='#portfolio'>
-                Works
+                My Work
               </a>
             </li>
 
@@ -64,7 +65,18 @@ class Header extends Component {
               </h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              <h3>
+                {description}
+                <a
+                  style={{ fontStyle: 'italic', color: '#b95cf7' }}
+                  href='https://www.leadrpro.com/'
+                  target='_blank'
+                  rel='noreferrer'>
+                  {' '}
+                  LeadrPro
+                </a>
+                . {description2}.
+              </h3>
             </Fade>
             <hr />
             <Fade bottom duration={5000}>
