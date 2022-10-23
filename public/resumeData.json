@@ -66,13 +66,13 @@
     "experience":[
       {
         "project":"Affiliate Marketing Website",
-        "role":"YourNextToy.com",
+        "role":"Your Next Toy",
         "duration":"Oct 2022 - Present",
         "description":"Developed a scalable affiliate marketing website for children's toys using React, Chakra UI, HTML and CSS. Tested, debugged and deployed 10,000+ lines of code and optimized for SEO and accessibility."
       },
       {
         "project":"JavaScript Coding Tips Blog",
-        "role":"JavaScriptCodingTips.com",
+        "role":"JavaScript Coding Tips",
         "duration":"Aug 2022 - Present",
         "description":"Coded out a modern, responsive frontend for a programming blog using JavaScript, React, HTML and CSS. Wrote engaging content and implemented fetch calls to the Contentful API to retrieve, manipulate and display data from the backend."
       }
@@ -127,27 +127,31 @@
       {
         "title":"LeadrPro",
         "category":"",
-        "image":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/lpshot_SyidJfdxi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662676790090",
+        "image":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/leadrpro_Pxfe---sq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666561858992",
         "url":"https://www.leadrpro.com/",
         "github":""
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"Chakra Portfolio Template",
+        "category":"",
+        "image":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/portfolio_eV84yVW61.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666561295557",
+        "url":"https://www.tomofficer.com/",
+"github":"https://github.com/tomofficer/portfolio2022"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title":"Flashcard Study App",
+        "category":"",
+        "image":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/flashcardapp_aXGFcToG9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666560091014",
+        "url":"https://flashcards-xi.vercel.app/",
+        "github":"https://github.com/tomofficer/flashcard-app"
       },
+      
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title":"GitHub Explorer App",
+        "category":"",
+        "image":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/github_EciCQKkUB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1666561217566",
+        "url":"https://githubfinder41987.netlify.app/",
+        "github":"https://github.com/tomofficer/github-finder"
       }
     ]
   }

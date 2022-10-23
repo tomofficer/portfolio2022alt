@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Zmage from 'react-zmage';
 import Fade from 'react-reveal';
-import { FaLink, FaCode } from 'react-icons/fa';
+import { FaLink, FaCode, FaInfoCircle } from 'react-icons/fa';
 import { IconBase } from 'react-icons';
 
 let id = 0;
@@ -24,13 +24,17 @@ class Portfolio extends Component {
                 display: 'flex',
                 justifyContent: 'space-evenly',
                 alignItems: 'center',
+                backgroundColor: '#e0e0de',
               }}>
               {projects.title}
-              <a href={projects.url}>
+              <a href={projects.url} target='_blank' rel='noreferrer'>
                 <FaLink />
               </a>
-              <a href={projects.github}>
+              <a href={projects.github} target='_blank' rel='noreferrer'>
                 <FaCode />
+              </a>
+              <a href={projects.github} target='_blank' rel='noreferrer'>
+                <FaInfoCircle />
               </a>
             </div>
           </div>
