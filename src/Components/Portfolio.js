@@ -10,7 +10,9 @@ class Portfolio extends Component {
     if (!this.props.data) return null;
 
     const projects = this.props.data.projects.map(function (projects) {
-      let projectImage = 'images/portfolio/' + projects.image;
+      let projectImage = projects.image;
+
+      // 'images/portfolio/' +  (OG path for default images)
 
       return (
         <div key={id++} className='columns portfolio-item'>
