@@ -9,6 +9,7 @@ class Contact extends Component {
     const street = this.props.data.address.street;
     const city = this.props.data.address.city;
     const state = this.props.data.address.state;
+    const country = this.props.data.address.country;
     const zip = this.props.data.address.zip;
     const phone = this.props.data.phone;
     const message = this.props.data.contactmessage;
@@ -33,6 +34,13 @@ class Contact extends Component {
         <div className='row'>
           <Slide left duration={1000}>
             <div className='eight columns'>
+              <div className='contactPic'>
+                <img
+                  width='600px'
+                  src='https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/selfie2_X8ybBe2dt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1662508173734'
+                  alt=''
+                />
+              </div>
               {/* <form action='' method='post' id='contactForm' name='contactForm'>
                 <fieldset>
                   <div>
@@ -111,7 +119,9 @@ class Contact extends Component {
                   {name}
                   <br />
                   {street} <br />
-                  {city} {state}, {zip}
+                  {city} {state}, {country}
+                  <br />
+                  {zip}
                 </p>
               </div>
 
@@ -123,6 +133,16 @@ class Contact extends Component {
               <div className='widget widget_contact'>
                 <h4>Email</h4>
                 <p className='address'>{email}</p>
+              </div>
+
+              <div className='widget widget_contact'>
+                <h4>Contact Me</h4>
+                <a
+                  href='https://us21.list-manage.com/contact-form?u=9064f083c44a027749d2cbcf1&form_id=e9952ffc8a4f3961aa57240528302eb4'
+                  target='_blank'
+                  rel='noreferrer'>
+                  <button className='contactBtn'>Let's Connect!</button>
+                </a>
               </div>
             </aside>
           </Slide>

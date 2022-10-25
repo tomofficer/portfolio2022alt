@@ -870,6 +870,14 @@ input[type='checkbox'] {
 .row .eight {
   width: 66.66667%;
 }
+
+.contactPic {
+  margin-left: 50%;
+}
+
+.contactBtn {
+}
+
 .row .nine {
   width: 75%;
 }
@@ -1040,6 +1048,10 @@ properly.
   .s-first {
     clear: left;
   }
+
+  .contactPic {
+    margin-left: 0%;
+  }
 }
 
 /* mobile wide/smaller tablets
@@ -1103,6 +1115,10 @@ properly.
     margin-left: 0%;
   }
   .row .offset-11 {
+    margin-left: 0%;
+  }
+
+  .contactPic {
     margin-left: 0%;
   }
 }

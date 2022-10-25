@@ -16,7 +16,8 @@
       "street":"Mt. Shasta",
       "city":"",
       "state":"California",
-      "zip": "USA"
+      "country": "USA",
+      "zip":"96067"
     },
     "website": "http://www.tomofficer.com",
     "resumedownload":"https://ik.imagekit.io/v66nb6oaq/Portfolio_2022/Tom_Officer_Resume_2022_UbRqw_kgu.pdf?ik-sdk-version=javascript-1.4.3&updatedAt=1663829604405",
