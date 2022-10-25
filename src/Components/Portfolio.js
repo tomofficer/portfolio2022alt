@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import Zmage from 'react-zmage';
 import Fade from 'react-reveal';
 import { FaLink, FaCode, FaInfoCircle } from 'react-icons/fa';
-import { IconBase } from 'react-icons';
-import PortfolioInfoModal from './PortfolioInfoModal';
+
+import LeadrProInfoModal from './LeadrProInfoModal';
+import GithubInfoModal from './GithubInfoModal';
+import TemplateInfoModal from './TemplateInfoModal';
+import FlashcardInfoModal from './FlashcardInfoModal';
 import PrivateRepoModal from './PrivateRepoModal';
 
 let id = 0;
@@ -43,7 +46,14 @@ class Portfolio extends Component {
                 </a>
               )}
 
-              <PortfolioInfoModal />
+              {projects.title === 'LeadrPro' && <LeadrProInfoModal />}
+              {projects.title === 'Portfolio Website Template' && (
+                <TemplateInfoModal />
+              )}
+              {projects.title === 'Flashcard Study App' && (
+                <FlashcardInfoModal />
+              )}
+              {projects.title === 'GitHub Explorer App' && <GithubInfoModal />}
               {/* <a href={projects.github} target='_blank' rel='noreferrer'>
                 <FaInfoCircle />
               </a> */}
@@ -54,21 +64,23 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id='portfolio'>
-        <Fade left duration={1000} distance='40px'>
-          <div className='row'>
-            <div className='twelve columns collapsed'>
-              <h1>Check out some of my work!</h1>
+      <>
+        <section id='portfolio'>
+          <Fade left duration={1000} distance='40px'>
+            <div className='row'>
+              <div className='twelve columns collapsed'>
+                <h1>Check out some of my work!</h1>
 
-              <div
-                id='portfolio-wrapper'
-                className='bgrid-quarters s-bgrid-thirds cf'>
-                {projects}
+                <div
+                  id='portfolio-wrapper'
+                  className='bgrid-quarters s-bgrid-thirds cf'>
+                  {projects}
+                </div>
               </div>
             </div>
-          </div>
-        </Fade>
-      </section>
+          </Fade>
+        </section>
+      </>
     );
   }
 }
