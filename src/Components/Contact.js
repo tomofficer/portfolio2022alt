@@ -33,7 +33,7 @@ class Contact extends Component {
         <div className='row'>
           <Slide left duration={1000}>
             <div className='eight columns'>
-              <form action='' method='post' id='contactForm' name='contactForm'>
+              {/* <form action='' method='post' id='contactForm' name='contactForm'>
                 <fieldset>
                   <div>
                     <label htmlFor='contactName'>
@@ -93,7 +93,7 @@ class Contact extends Component {
                     </span>
                   </div>
                 </fieldset>
-              </form>
+              </form> */}
 
               <div id='message-warning'> Error boy</div>
               <div id='message-success'>
