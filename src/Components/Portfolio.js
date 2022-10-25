@@ -3,6 +3,8 @@ import Zmage from 'react-zmage';
 import Fade from 'react-reveal';
 import { FaLink, FaCode, FaInfoCircle } from 'react-icons/fa';
 import { IconBase } from 'react-icons';
+import PortfolioInfoModal from './PortfolioInfoModal';
+import PrivateRepoModal from './PrivateRepoModal';
 
 let id = 0;
 class Portfolio extends Component {
@@ -30,12 +32,21 @@ class Portfolio extends Component {
               <a href={projects.url} target='_blank' rel='noreferrer'>
                 <FaLink />
               </a>
-              <a href={projects.github} target='_blank' rel='noreferrer'>
-                <FaCode />
-              </a>
-              <a href={projects.github} target='_blank' rel='noreferrer'>
+              {projects.title === 'LeadrPro' && (
+                <>
+                  <PrivateRepoModal />
+                </>
+              )}
+              {projects.title !== 'LeadrPro' && (
+                <a href={projects.github} target='_blank' rel='noreferrer'>
+                  <FaCode />
+                </a>
+              )}
+
+              <PortfolioInfoModal />
+              {/* <a href={projects.github} target='_blank' rel='noreferrer'>
                 <FaInfoCircle />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
