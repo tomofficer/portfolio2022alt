@@ -17,7 +17,7 @@ const LeadrProInfoModal = () => {
         <div style={{ width: 'auto' }}>
           A software marketplace for Saas companies to host video sales demos.
           Full stack, production-level web application built using the PERN
-          stack. (I am 1 of the 3 founding engineers)
+          stack. (I am 1 of 3 founding engineers)
         </div>
       </Popup>
     </>
