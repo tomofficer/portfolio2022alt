@@ -53,7 +53,7 @@ class About extends Component {
                       rel='noreferrer'>
                       <i className='fa fa-download'></i>Download Resume
                     </a>
-                    {/* <a
+                    <a
                       style={{ marginLeft: '10px', background: 'red' }}
                       href={indeedResults}
                       className='button btn indeed-btn'
@@ -61,7 +61,7 @@ class About extends Component {
                       rel='noreferrer'>
                       <FaNewspaper style={{ marginRight: '10px' }} /> Indeed
                       Test Results
-                    </a> */}
+                    </a>
                   </p>
                 </div>
               </div>
