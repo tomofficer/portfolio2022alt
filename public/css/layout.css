@@ -1161,3 +1161,9 @@ footer .social-links li:first-child {
 .github-btn {
   background-color: #34495e !important;
 }
+.indeed-btn {
+  background-color: #32a8a4 !important;
+}
+.indeed-btn:hover {
+  background-color: 'white' !important;
+}

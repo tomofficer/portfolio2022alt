@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal';
+import { FaNewspaper } from 'react-icons/fa';
 
 class About extends Component {
   render() {
@@ -16,6 +17,7 @@ class About extends Component {
     const phone = this.props.data.phone;
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
+    const indeedResults = this.props.data.indeedResults;
 
     return (
       <section id='about'>
@@ -51,6 +53,15 @@ class About extends Component {
                       rel='noreferrer'>
                       <i className='fa fa-download'></i>Download Resume
                     </a>
+                    {/* <a
+                      style={{ marginLeft: '10px', background: 'red' }}
+                      href={indeedResults}
+                      className='button btn indeed-btn'
+                      target='_blank'
+                      rel='noreferrer'>
+                      <FaNewspaper style={{ marginRight: '10px' }} /> Indeed
+                      Test Results
+                    </a> */}
                   </p>
                 </div>
               </div>
