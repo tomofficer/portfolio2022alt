@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 import Fade from 'react-reveal';
 import { FaNewspaper } from 'react-icons/fa';
 
@@ -18,6 +18,17 @@ class About extends Component {
     const email = this.props.data.email;
     const resumeDownload = this.props.data.resumedownload;
     const indeedResults = this.props.data.indeedResults;
+
+    //todo ==> modal logic below, needs to be converted to class based component
+    // const [showModal, setShowModal] = useState(false);
+
+    // const modalClick = () => {
+    //   setShowModal(true);
+    // };
+
+    // const closeModalClick = () => {
+    //   setShowModal(false);
+    // };
 
     return (
       <section id='about'>
