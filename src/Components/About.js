@@ -88,3 +88,12 @@ class About extends Component {
 }
 
 export default About;
+
+/* {showModal && (
+          <>
+            <div className='modal-overlay'></div>
+            <div className='modal'>
+              <h3>Indeed Test Results</h3>
+            </div>
+          </>
+        )} */
