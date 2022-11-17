@@ -6,7 +6,7 @@
     "description2":"I specialize in building modern, scalable web applications using",
     "description3":"JavaScript, React, HTML, CSS, PostgreSQL and Node.js",
     "image":"profilepic.jpg",
-    "bio":"Full Stack / Front End Developer experienced in developing and deploying modern, highly scalable, production-level web applications. Prefers working on a tight-knit team in a fast paced Agile SCRUM environment and holds frequent, precise team communication in high regard. Stellar attention to detail with a diverse background in modern technologies. In my free time I'm either spending time with my two year old son, out hiking with my dogs or tracking music in my home recording studio.",
+    "bio":"Hey, I'm Tom! I'm a professional Software Engineer experienced in developing and deploying highly scalable, production-level web applications. I consider myself an innovative problem-solver who finds great enjoyment in applying creative solutions to modern technical challenges. I thrive working remotely on a tight-knit team in an Agile SCRUM environment. I'm an enthusiastic team player who holds frequent and precise communication in high regard. I believe leaving room for creativity and growth in the workplace is essential to a productive development team.",
     "contactmessage":"I'm always open to new opportunities and would love to hear from you. Let's connect!",
     "email": "tomofficerwebdev@gmail.com",
     "phone": "(530) 925-9482",
@@ -46,7 +46,7 @@
       },
       {
         "company":"White Dog Woodworking",
-        "role":"Web Developer",
+        "role":"Software Engineer",
         "duration":"Aug 2022 - Present",
         "description":"Spearheaded custom website from wirefram design to production-level deployment hosted on Vercel. Applied industry best practices to code out a modern, responsive front-end architecture using JavaScript, HTML and CSS."
       }
@@ -76,7 +76,7 @@
         "project":"JavaScript Coding Tips Blog",
         "role":"JavaScript Coding Tips",
         "duration":"Aug 2022 - Present",
-        "description":"Coded out a modern, responsive frontend for a programming blog using JavaScript, React, HTML and CSS. Wrote engaging content and implemented fetch calls to the Contentful API to retrieve, manipulate and display data from the backend."
+        "description":"Coded out a modern, responsive template for a programming blog using JavaScript, React, HTML and CSS. Wrote engaging content and implemented fetch calls to the Contentful API to retrieve, manipulate and display data from the backend."
       }
     ],
     "certificates":[
